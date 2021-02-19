@@ -18,6 +18,157 @@ import "./style.css";
 import Content from "./Content.js";
 import Contact from './Contact';
 
+const drawerWidth = 240;
+
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        // margin: '5px',
+        fontFamily: 'Raleway',
+        minHeight: '10vh',
+        [theme.breakpoints.down("sm")]: {
+            flexDirection: 'column',
+        },
+    },
+    rootTwo: {
+        '& > * + *': {
+            marginLeft: theme.spacing(2),
+            color: '#ffffff',
+            textShadow: '-1px 1px #000',
+            minHeight: '1rem',
+            fontFamily: 'Raleway',
+            fontSize: '12px',
+        },
+    },
+    btnHeader: {
+        backgroundColor: 'transparent',
+        color: 'limegreen',
+        textShadow: '-1px 1px black',
+        fontFamily: 'Raleway',
+        minHeight: '1rem',
+        border: 'none',
+        textAlign: 'center',
+        fontSize: '10px',
+        width: 'auto',
+        webkitTransition: 'all 0.5s',
+        mozTransition: 'all 0.5s',
+        oTransition: 'all 0.5s',
+        transition: 'all 0.5s',
+        cursor: 'pointer',
+        float: 'center',
+    },
+    a: {
+        webkit: {
+            textDocoration: "none",
+        },
+    },
+    appbar: {
+        background: 'none',
+
+    },
+    appbarTitle: {
+        flexGrow: '1',
+        fontSize: '1rem',
+        display: 'flex',
+
+    },
+    appbarWrapper: {
+        width: '100%',
+        margin: '0 auto',
+    },
+    // icon: {
+    //     color: '#fff',
+    //     // fontSize: '2rem',
+
+    // },
+    colorText: {
+        color: '#5AFF3D',
+        textShadow: '-1px 1px #000',
+        marginLeft: '10px',
+    },
+    container: {
+        textAlign: 'center',
+    },
+    title: {
+        color: '#fff',
+        fontSize: '3rem',
+        marginTop: '20px',
+    },
+    goDown: {
+        color: '#5AFF3D',
+        fontSize: '3rem',
+
+    },
+    skillBlock: {
+        justify: 'center',
+        marginLeft: '100px',
+        // marginBottom: '20px',
+    },
+    navLinks: {
+        cursor: 'pointer',
+    },
+
+    appBar: {
+        transition: theme.transitions.create(['margin', 'width'], {
+            easing: theme.transitions.easing.sharp,
+            duration: theme.transitions.duration.leavingScreen,
+        }),
+    },
+    appBarShift: {
+        width: `calc(100% - ${drawerWidth}px)`,
+        marginLeft: drawerWidth,
+        transition: theme.transitions.create(['margin', 'width'], {
+            easing: theme.transitions.easing.easeOut,
+            duration: theme.transitions.duration.enteringScreen,
+        }),
+    },
+    menuButton: {
+        marginRight: theme.spacing(2),
+    },
+    hide: {
+        display: 'none',
+    },
+    drawer: {
+        width: drawerWidth,
+        flexShrink: 0,
+        
+    },
+    drawerPaper: {
+        width: drawerWidth,
+        backgroundImage: `url(${process.env.PUBLIC_URL + './images/coffee.jpg'})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    },
+    drawerHeader: {
+        // display: 'flex',
+        alignItems: 'center',
+        padding: theme.spacing(0, 1),
+        // necessary for content to be below app bar
+        ...theme.mixins.toolbar,
+        justifyContent: 'flex-end',
+    },
+
+    content: {
+        flexGrow: 1,
+        padding: theme.spacing(3),
+        transition: theme.transitions.create('margin', {
+            easing: theme.transitions.easing.sharp,
+            duration: theme.transitions.duration.leavingScreen,
+        }),
+        marginLeft: -drawerWidth,
+    },
+    contentShift: {
+        transition: theme.transitions.create('margin', {
+            easing: theme.transitions.easing.easeOut,
+            duration: theme.transitions.duration.enteringScreen,
+        }),
+        marginLeft: 0,
+    },
+}));
 
 
 const Header = props => {
