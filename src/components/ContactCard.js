@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import ContactForm from './Form';
+import ContactForm from './ContactForm';
 import CardActions from '@material-ui/core/CardActions';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, Button, Box, Grid } from '@material-ui/core';

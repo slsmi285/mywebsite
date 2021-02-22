@@ -16,7 +16,7 @@ import ScrollTotop from './ScrollTotop';
 import Skills from './Skills';
 import "./style.css";
 import Content from "./Content.js";
-import Contact from './Contact';
+import ContactCard from './ContactCard';
 
 const drawerWidth = 240;
 
@@ -220,7 +220,7 @@ const Header = props => {
                                 </IconButton>
                             </div>
                             <Divider />
-                            <Contact />
+                            <ContactCard />
                         </Drawer>
                         <main
                             className={clsx(classes.content, {
