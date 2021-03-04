@@ -1,11 +1,11 @@
 const places = [
-    // {
-    //     title: 'C-19 Tracker',
-    //     description:
-    //     "Using React and MongoDB, the user can check on Covid-19 Status and protocols of any State.",
-    //     imageUrl: '/assets/covid19.png',
-    //     demoSrc: 'www.slsmi285.github.io/c19-tracker',
-    //     gitSrc: 'www.github.com/slsmi285/c19-tracker',
+    {
+        title: 'C-19 Tracker',
+        description:
+        "Using React and MongoDB, the user can check on Covid-19 Status and protocols of any State.",
+        imageUrl: '/assets/covid19.png',
+        demoSrc: 'www.slsmi285.github.io/c19-tracker',
+        gitSrc: 'www.github.com/slsmi285/c19-tracker',
         
         
     // },
@@ -13,7 +13,7 @@ const places = [
         title: 'Cosmic Cocktails',
         description:
         "Search a cocktail recipe by its name, or search for something new by entering a letter or ingredient.",
-        imageUrl: './images/drinkcover.jpg',
+        imageUrl: '/images/drinkcover.jpg',
         demoSrc: 'https://cryptic-tundra-79116.herokuapp.com/',
         gitSrc: 'https://github.com/slsmi285/Project2_CosmicCocktails',
         
@@ -33,23 +33,23 @@ const places = [
         title: 'Train Station Scheduler',
         description:
         "Enter the state you are traveling to to find out covid-19 status and state info.",
-        imageUrl: './images/train.jpg',
+        imageUrl: '../images/train.jpg',
         demoSrc: 'https://slsmi285.github.io/Train-Station-Scheduler/',
         gitSrc: 'https://github.com/slsmi285/Train-Station-Scheduler',
         
         
         
     },
-    {
-        title: 'Scraper News',
-        description:
-        "Search a cocktail recipe by its name, or search for something new by entering a letter or ingredient.",
-        imageUrl: './images/web.jpg',
-        demoSrc: 'https://vast-spire-84282.herokuapp.com/',
-        gitSrc: 'https://github.com/slsmi285/scraper_news',
+    // {
+    //     title: 'Scraper News',
+    //     description:
+    //     "Search a cocktail recipe by its name, or search for something new by entering a letter or ingredient.",
+    //     imageUrl: '../images/web.jpg',
+    //     demoSrc: 'https://vast-spire-84282.herokuapp.com/',
+    //     gitSrc: 'https://github.com/slsmi285/scraper_news',
         
          
-    },
+    // },
     // {
     //     title: 'Liri Node',
     //     description:

@@ -14,7 +14,7 @@ import particlesConfig from './config/particlesConfig';
 const useStyles = makeStyles({
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + './images/dahlia3.jpg'})`,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/images/dahlia3.jpg'})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   },

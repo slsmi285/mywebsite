@@ -1,106 +1,106 @@
 .App {
-    text-align: center;
-    margin-top: 5px;
-    /* border-bottom: 1px solid gray; */
-    width: auto;
-    padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+  /* border-bottom: 1px solid gray; */
+  width: auto;
+  padding: 5px;
+}
+
+
+.buttonMe {
+  background-color: transparent;
+  color: limegreen;
+  text-shadow: -1px 1px black;
+  font-family: Raleway;
+  min-height: 1rem;
+  border: none;
+  /* display: inline-block; */
+  /* border-radius: 5px; */
+  /* border: 4px double limegreen; */
+  text-align: center;
+  font-size: 10px;
+  /* padding: 5px; */
+  width: auto;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 5px; */
+  float: center;
+}
+
+  .modal > .actions {
+    margin: auto;
   }
-  
-  
-  .buttonMe {
-    background-color: transparent;
-    color: limegreen;
-    text-shadow: -1px 1px black;
-    font-family: Raleway;
-    min-height: 1rem;
-    border: none;
-    /* display: inline-block; */
-    /* border-radius: 5px; */
-    /* border: 4px double limegreen; */
+  .modal > .actions {
+    width: 98%;
+    padding: 10px 5px;
     text-align: center;
-    font-size: 10px;
-    /* padding: 5px; */
-    width: auto;
+  }
+
+
+  .Footer {
+    text-align: center;
+    margin-bottom: -200px;
+    border-bottom: 1px solid gray;
+     width: 100%;
+    padding: 5px;
+    
+    
+  }
+  .buttonFoot {
+    background-color: purple;
+    color: white;
+    font-family: Raleway;
+    min-height: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px double limegreen;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    width: 100px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     cursor: pointer;
-    /* margin: 5px; */
-    float: center;
+    margin: 5px;
+    
+  }
+  .skillSet {
+    float: right;
   }
   
-    .modal > .actions {
-      margin: auto;
-    }
-    .modal > .actions {
-      width: 98%;
-      padding: 10px 5px;
-      text-align: center;
-    }
-  
-  
-    .Footer {
-      text-align: center;
-      margin-bottom: -200px;
-      border-bottom: 1px solid gray;
-       width: 100%;
-      padding: 5px;
-      
-      
-    }
-    .buttonFoot {
-      background-color: purple;
-      color: white;
-      font-family: Raleway;
-      min-height: 10px;
-      display: inline-block;
-      border-radius: 10px;
-      border: 4px double limegreen;
-      text-align: center;
-      font-size: 12px;
-      padding: 5px;
-      width: 100px;
-      -webkit-transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-      
-    }
-    .skillSet {
-      float: right;
-    }
+  .skilblock {
+    cursor: none;
+    color: white;
+    display: flex;
+    /* align-items: center; */
     
-    .skilblock {
-      cursor: none;
-      color: white;
-      display: flex;
-      /* align-items: center; */
-      
-    }
-    input {
-      
-      border: none;
-      font-size: 18px;
-      background: none;
-      color: white;
-      justify: center;
-      align-items: center;
-    }
-    .titleskl{
-      font-size: 18px;
-      color: white;
-      
-    }
+  }
+  input {
+    
+    border: none;
+    font-size: 18px;
+    background: none;
+    color: white;
+    justify: center;
+    align-items: center;
+  }
+  .titleskl{
+    font-size: 18px;
+    color: white;
+    
+  }
+ 
+  span {
+    border: hidden;
    
-    span {
-      border: hidden;
-     
-    }
-  
-    span.typed-cursor {
-     
-      visibility: hidden;
-    }
+  }
+
+  span.typed-cursor {
+   
+    visibility: hidden;
+  }
