@@ -8,7 +8,7 @@ const places = [
         gitSrc: 'www.github.com/slsmi285/c19-tracker',
         
         
-    // },
+    },
     {
         title: 'Cosmic Cocktails',
         description:

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Particles from 'react-particles-js';
 import PlaceToVisit from './components/PlaceToVisit';
 import particlesConfig from './config/particlesConfig';
+import dahlia3 from './assets/dahlia3.jpg';
 
 
 
@@ -14,7 +15,7 @@ import particlesConfig from './config/particlesConfig';
 const useStyles = makeStyles({
   root: {
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/images/dahlia3.jpg'})`,
+    backgroundImage: `url(${dahlia3})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   },
