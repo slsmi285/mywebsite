@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Particles from 'react-particles-js';
 import PlaceToVisit from './components/PlaceToVisit';
 import particlesConfig from './config/particlesConfig';
-import dahlia3 from './assets/dahlia3.jpg';
+
 
 
 
@@ -30,7 +30,12 @@ function App() {
 
   return (
     // <div className={classes.root}>
-    <div style={{ backgroundImage: `url(${dahlia3})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', minHeight: '100vh' }}>
+    <div style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL + '/images/dahlia3.jpg'})`,
+      minHeight: '100vh',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover'
+      }}>
 
       <CssBaseline />
       <div style={{ position: 'absolute' }}>
