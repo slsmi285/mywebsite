@@ -34,7 +34,8 @@ function App() {
       backgroundImage: `url(${process.env.PUBLIC_URL + '/images/dahlia3.jpg'})`,
       minHeight: '100vh',
       backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover'
+      backgroundSize: 'cover',
+      backgroundColor: 'black',
       }}>
 
       <CssBaseline />

@@ -12,14 +12,6 @@ import { Card } from '@material-ui/core';
 
 
 
-// const styles = {
-// fullHeightCard: {
-//     height: '100%',
-//     backgroundColor: 'purple',
-//     },
-// }
-
-
 
 const Projects = props => {
     // const {classes} = props
