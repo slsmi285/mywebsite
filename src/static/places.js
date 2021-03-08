@@ -5,9 +5,10 @@ const places = [
         title: 'C-19 Tracker',
         description:
         "Using React and MongoDB, the user can check on Covid-19 Status and protocols of any State.",
-        imageUrl: '/assets/web.jpg',
+        imageUrl: require('../static/web.jpg'),
         demoSrc: 'https://murmuring-hollows-32917.herokuapp.com/',
         gitSrc: 'www.github.com/slsmi285/c19-tracker',
+        id: 1
         
         
     },
@@ -15,19 +16,20 @@ const places = [
         title: 'Cosmic Cocktails',
         description:
         "Search a cocktail recipe by its name, or search for something new by entering a letter or ingredient.",
-        imageUrl: '/assets/drinkcover.jpg',
+        imageUrl: './drinkcover.jpg',
         demoSrc: 'https://cryptic-tundra-79116.herokuapp.com/',
         gitSrc: 'https://github.com/slsmi285/Project2_CosmicCocktails',
-        
+        id: 2
          
     },
     // {
     //     title: 'React Tic Tac Toe',
     //     description:
     //     "Using React and Material-UI. Play the game! Tic Tac Toe....",
-    //     imageUrl: '/assets/web.jpg',
+    //     imageUrl: require('/assets/web.jpg'),
     //     demoSrc: '',
     //     gitSrc: '',
+    //      id: 3
         
          
     // },
@@ -35,10 +37,10 @@ const places = [
         title: 'Train Station Scheduler',
         description:
         "This app is about relational database, enter a fictionary train schedule, the app will calculate arrival/departure.",
-        imageUrl: '/assets/train.jpg',
+        imageUrl: require('../static/train.jpg'),
         demoSrc: 'https://slsmi285.github.io/Train-Station-Scheduler/',
         gitSrc: 'https://github.com/slsmi285/Train-Station-Scheduler',
-        
+        id: 4
         
         
     },
@@ -46,9 +48,10 @@ const places = [
     //     title: 'Scraper News',
     //     description:
     //     "Search a cocktail recipe by its name, or search for something new by entering a letter or ingredient.",
-    //     imageUrl: '../images/web.jpg',
+    //     imageUrl: require('../images/web.jpg'),
     //     demoSrc: 'https://vast-spire-84282.herokuapp.com/',
     //     gitSrc: 'https://github.com/slsmi285/scraper_news',
+    //      id: 5
         
          
     // },
@@ -56,10 +59,10 @@ const places = [
     //     title: 'Liri Node',
     //     description:
     //     "Using Nodejs CLI, all your answers will show up in the terminal.",
-    //     imageUrl: '/assets/liri.jpg',
+    //     imageUrl: require('/assets/liri.jpg'),
     //     demoSrc: 'https://slsmi285.github.io/liri-node-app/',
     //     gitSrc: 'https://github.com/slsmi285/liri-node-app',
-        
+    //      id: 6
         
     // },
 

@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   ctnForm: {
     // minHeight: '60vh',
     marginLeft: '30px',
-    backgroundColor: 'black',
+    backgroundColor: 'brown',
 
   },
   infoBox: {
@@ -46,7 +46,7 @@ export default function ContactCard() {
     }}
     >
       <Box className={classes.infoBox}>
-        <Card component="form" className={classes.cntForm}>
+        <Card component="form" className={classes.cntForm} style={{ backgroundColor: 'black', border: '4px double white' }}>
           <h3 style={{ color: "limegreen", display: "center", marginLeft: "10px" }} variant="outlined" size="large" fullWidth="true">CONTACT INFO</h3> 
           <h5 style={{ color: "white" }}>Email: sls2code@gmail.com </h5>
           <h5 style={{ color: "white" }}>Phone: (865) 696-1106</h5>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Collapse } from '@material-ui/core';
-import Projects from './Projects';
+import ProjectCard from './ProjectCard';
 import { Grid, Container } from '@material-ui/core';
-import places from '../static/places';
+// import places from '../static/places';
 import Typography from '@material-ui/core/Typography';
 
 
@@ -12,12 +12,13 @@ import Typography from '@material-ui/core/Typography';
 
 const ImageCard = ({ title, checked }) => {
 
-  const getPlacesList = placesObj => {
+  // const getPlacesList = placesObj => {
 
-    return (
-      <Grid item xs={4}> <Projects {...placesObj} styles={{ minHeight: "40vh" }}/> </Grid>
-    );
-  };
+  //   return (
+  //     <Grid item xs={4}> <ProjectCard {...placesObj} styles={{ minHeight: "40vh" }}/> 
+  //     </Grid>
+  //   );
+  // };
 
   return (
     <>
@@ -34,11 +35,11 @@ const ImageCard = ({ title, checked }) => {
             flexWrap= 'wrap'
             justifyContent= 'space-around'
             overflow= 'hidden'
-         
+          
           >
+          <ProjectCard />
 
-
-            {places.map(placesObj => getPlacesList(placesObj))}
+            {/* {places.map(placesObj => getPlacesList(placesObj))} */}
 
           </Grid>
         </Container>

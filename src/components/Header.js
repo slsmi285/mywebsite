@@ -81,11 +81,7 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
         margin: '0 auto',
     },
-    // icon: {
-    //     color: '#fff',
-    //     // fontSize: '2rem',
-
-    // },
+  
     colorText: {
         color: '#5AFF3D',
         textShadow: '-1px 1px #000',
@@ -248,6 +244,7 @@ const Header = props => {
                                 <a style={{ 
                                     textDecoration: "none", 
                                     color: "limegreen", 
+                                    fontSize: '10px',
                                     textShadow: "-1px 1px black" }} 
                                     href={resume} target="_blank" ><h3>RESUME</h3></a>
                             </Button>}
