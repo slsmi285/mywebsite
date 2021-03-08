@@ -21,7 +21,13 @@ const Projects = props => {
         <>
                 <Card > 
                     <CardActionArea>
-                        <CardMedia image={ imageUrl } style={{ height: "140px" }}  />
+                        <CardMedia
+                        component="img"
+                        height="140"
+                        image={ imageUrl } 
+                        // style={{ height: "140px" }}  
+                        
+                        />
                         <CardContent >
                             <Typography gutterBottom variant="h5" component="h2">
                                 {title}

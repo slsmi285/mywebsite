@@ -135,7 +135,7 @@ const useStyles = makeStyles((theme) => ({
     drawer: {
         width: drawerWidth,
         flexShrink: 0,
-        
+        backgroundColor: 'black',
     },
     drawerPaper: {
         width: drawerWidth,
@@ -144,12 +144,14 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: 'no-repeat',
     },
     drawerHeader: {
-        // display: 'flex',
-        alignItems: 'center',
+        display: 'flex',
+        justifyContent: 'center',
+        backgroundColor: 'black',
+        // alignItems: 'center',
         padding: theme.spacing(0, 1),
         // necessary for content to be below app bar
         ...theme.mixins.toolbar,
-        justifyContent: 'flex-end',
+        // justifyContent: 'flex-end',
     },
 
     content: {
@@ -215,7 +217,13 @@ const Header = props => {
                                 paper: classes.drawerPaper,
                             }}>
                             <div className={classes.drawerHeader}>
-                                <IconButton style={{ fontSize: '3rem', color: 'white', fontShadow: '-1px 1px black' }} onClick={handleDrawerClose}>
+                                <IconButton style={{ 
+                                    fontSize: '3rem',
+                                    backgroundColor: 'black',
+                                    color: 'limegreen', 
+                                    fontShadow: '-1px 1px black', 
+                                    display: 'flex',
+                                    justify: 'center' }} onClick={handleDrawerClose}>
                                     {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
                                 </IconButton>
                             </div>
@@ -236,7 +244,11 @@ const Header = props => {
                             </Popup>
 
                             {<Button className={classes.btnHeader}>
-                                <a style={{ textDecoration: "none", color: "limegreen", textShadow: "-1px 1px black" }} href="/resume.pdf" target="_blank" ><h3>RESUME</h3></a>
+                                <a style={{ 
+                                    textDecoration: "none", 
+                                    color: "limegreen", 
+                                    textShadow: "-1px 1px black" }} 
+                                    href="/resume.pdf" target="_blank" ><h3>RESUME</h3></a>
                             </Button>}
 
                             <IconButton>

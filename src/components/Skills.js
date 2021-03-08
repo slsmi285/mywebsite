@@ -16,6 +16,7 @@ class Skills extends Component {
             <Box className="skillSet">
                 <Grid
                 container
+                item={true}
                 direction="row"
                 justify="center"
                 alignItems="center">

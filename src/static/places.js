@@ -1,9 +1,11 @@
+
+
 const places = [
     {
         title: 'C-19 Tracker',
         description:
         "Using React and MongoDB, the user can check on Covid-19 Status and protocols of any State.",
-        imageUrl: './assets/web.png',
+        imageUrl: '/assets/web.jpg',
         demoSrc: 'https://murmuring-hollows-32917.herokuapp.com/',
         gitSrc: 'www.github.com/slsmi285/c19-tracker',
         
@@ -13,7 +15,7 @@ const places = [
         title: 'Cosmic Cocktails',
         description:
         "Search a cocktail recipe by its name, or search for something new by entering a letter or ingredient.",
-        imageUrl: './assets/drinkcover.jpg',
+        imageUrl: '/assets/drinkcover.jpg',
         demoSrc: 'https://cryptic-tundra-79116.herokuapp.com/',
         gitSrc: 'https://github.com/slsmi285/Project2_CosmicCocktails',
         
@@ -32,8 +34,8 @@ const places = [
     {
         title: 'Train Station Scheduler',
         description:
-        "Enter the state you are traveling to to find out covid-19 status and state info.",
-        imageUrl: '/train.jpg',
+        "This app is about relational database, enter a fictionary train schedule, the app will calculate arrival/departure.",
+        imageUrl: '/assets/train.jpg',
         demoSrc: 'https://slsmi285.github.io/Train-Station-Scheduler/',
         gitSrc: 'https://github.com/slsmi285/Train-Station-Scheduler',
         

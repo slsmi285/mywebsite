@@ -28,14 +28,13 @@ const ImageCard = ({ title, checked }) => {
         <Container>
           <Grid
             container
+            item={true}
             spacing={3}
          
             flexWrap= 'wrap'
             justifyContent= 'space-around'
             overflow= 'hidden'
-          //   alignContent="flex-start"
-          //   justify="space-evenly"
-          // style={{ minHeight: '100vh' }}
+         
           >
 
 
