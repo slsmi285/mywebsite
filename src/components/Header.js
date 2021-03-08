@@ -17,6 +17,7 @@ import Skills from './Skills';
 import "./style.css";
 import Content from "./Content.js";
 import ContactCard from './ContactCard';
+import resume from '../static/resume.pdf';
 
 const drawerWidth = 240;
 
@@ -243,12 +244,12 @@ const Header = props => {
                                 {close => <Content close={close} />}
                             </Popup>
 
-                            {<Button className={classes.btnHeader}>
+                            {<Button>
                                 <a style={{ 
                                     textDecoration: "none", 
                                     color: "limegreen", 
                                     textShadow: "-1px 1px black" }} 
-                                    href="/resume.pdf" target="_blank" ><h3>RESUME</h3></a>
+                                    href={resume} target="_blank" ><h3>RESUME</h3></a>
                             </Button>}
 
                             <IconButton>
